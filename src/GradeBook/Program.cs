@@ -15,7 +15,7 @@ namespace GradeBook
             mygradebook.AddGrade(6.11);
             mygradebook.AddGrade(4);
             mygradebook.AddGrade(37.2);
-            mygradebook.ShowStatistics();
+           
             // var numbers = new double[3];
             // // numbers[0] = 12.7;
             // // numbers[1] = 10.3;
