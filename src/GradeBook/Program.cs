@@ -8,6 +8,14 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
+
+            Book mygradebook = new Book("My First Gradebook");
+            mygradebook.AddGrade(56.8);
+            mygradebook.AddGrade(12.7);
+            mygradebook.AddGrade(6.11);
+            mygradebook.AddGrade(4);
+            mygradebook.AddGrade(37.2);
+            mygradebook.ShowStatistics();
             // var numbers = new double[3];
             // // numbers[0] = 12.7;
             // // numbers[1] = 10.3;
