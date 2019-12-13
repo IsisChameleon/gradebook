@@ -55,10 +55,6 @@ namespace GradeBook.Tests
         {
             book = new Book(name);
         }
-        private void setName(string name, Book book)
-        {
-            book.Name = name;
-        }
 
         private Book GetBook(string name)
         {

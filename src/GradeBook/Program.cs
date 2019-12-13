@@ -8,13 +8,60 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
+            string input;
+           
+            Console.WriteLine("Please enter the name of the book.");
+            input = Console.ReadLine();
+            Book mygradebook = new Book(input);
+            mygradebook.GradeAdded += OnGradeAdded; // GradeAdded function pointer is set
+            mygradebook.GradeAdded += OnGradeAdded;
+            mygradebook.GradeAdded -= OnGradeAdded;
+            mygradebook.GradeAdded += OnGradeAdded; // on event GradeAdded we want to call function OnGradeAdded twice in total
+            mygradebook.GradeAdded = null;
+            
+            while(true)
+            {
+                Console.WriteLine("Please enter a grade or q to quit!.");
+                input = Console.ReadLine();
+                if (input == "q")
+                {
+                    break;
+                }
+                try 
+                {
+                    var grade = double.Parse(input);
+                    mygradebook.AddGrade(grade);
+                }
+                catch(ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }                
+                catch(FormatException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    Console.WriteLine("Executed before exiting whether I did throw an exception or not");
+                }
 
-            Book mygradebook = new Book("My First Gradebook");
-            mygradebook.AddGrade(56.8);
-            mygradebook.AddGrade(12.7);
-            mygradebook.AddGrade(6.11);
-            mygradebook.AddGrade(4);
-            mygradebook.AddGrade(37.2);
+            };
+
+            var result = mygradebook.GetStatistics();
+
+            Console.WriteLine($". For the Book : {mygradebook.Name}");
+            Console.WriteLine($". For the Book : {Book.CATEGORY}");
+            Console.WriteLine($". Average actual : {result.Average}");
+            Console.WriteLine($"High actual : {result.High}");
+            Console.WriteLine($"Low actual : {result.Low}");
+            Console.WriteLine($"Letter : {result.Letter}");
+
+            // Book mygradebook = new Book("My First Gradebook");
+            // mygradebook.AddGrade(56.8);
+            // mygradebook.AddGrade(12.7);
+            // mygradebook.AddGrade(6.11);
+            // mygradebook.AddGrade(4);
+            // mygradebook.AddGrade(37.2);
            
             // var numbers = new double[3];
             // // numbers[0] = 12.7;
@@ -27,12 +74,12 @@ namespace GradeBook
             // List provides a dynamically sized collection of items
             grades.Add(56.1);
 
-            double result = 0;
+            double r = 0;
             foreach (var i in numbers)
             {
-                result+=i;
+                r+=i;
             }
-            Console.WriteLine($"result : {result}");
+            Console.WriteLine($"result : {r}");
 
             double result2 = 0;
             foreach (var i in grades)
@@ -54,5 +101,7 @@ namespace GradeBook
                 Console.WriteLine("hello bobo");
             }
         }
+
+        static void OnGradeAdded(object sender, EventArgs e) => Console.WriteLine($"A grade was added .. ");
     }
 }
