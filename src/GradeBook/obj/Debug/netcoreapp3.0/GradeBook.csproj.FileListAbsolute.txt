@@ -1,0 +1,22 @@
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.deps.json
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.json
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.dev.json
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.dll
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.pdb
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.csprojAssemblyReference.cache
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfoInputs.cache
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfo.cs
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.dll
+/home/isischameleon/Dropbox/Coding/dotNET/Pluralsight - C# Fundamentals/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.pdb
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.deps.json
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.json
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.runtimeconfig.dev.json
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.dll
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/bin/Debug/netcoreapp3.0/GradeBook.pdb
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.csprojAssemblyReference.cache
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfoInputs.cache
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.AssemblyInfo.cs
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.dll
+/home/isischameleon/Dropbox/Coding/dotNET/gradebook/src/GradeBook/obj/Debug/netcoreapp3.0/GradeBook.pdb
